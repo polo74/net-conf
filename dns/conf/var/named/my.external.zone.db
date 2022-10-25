@@ -1,0 +1,6 @@
+@ in soa localhost. root 1 3H 15M 1W 1D
+  ns localhost.
+
+ns1	IN	NS	ns1
+
+ns1	IN	A	141.145.207.92

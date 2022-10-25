@@ -1,0 +1,322 @@
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone localhost/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+all zones loaded
+running
+client @0xfffeb00a0840 91.167.184.90#12292 (istyx.eu.org): view external: query 'istyx.eu.org/A/IN' denied
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:dc3::35#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:12::d0d#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:2d::d#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:2::c#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:7fd::1#53
+resolver priming query complete
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:e::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:48::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:c::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:40::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:f::1#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:500:b::1#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving 'gra.wolfhugel.eu/A/IN': 2001:500:2::c#53
+network unreachable resolving 'gra.wolfhugel.eu/AAAA/IN': 2001:500:2::c#53
+network unreachable resolving 'ns1.eu.org/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns1.eu.org/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns1.eriomem.net/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/A/IN': 2001:500:2::c#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/AAAA/IN': 2001:500:2::c#53
+network unreachable resolving 'gra.wolfhugel.eu/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'gra.wolfhugel.eu/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns1.eu.org/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns1.eu.org/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns1.eriomem.net/A/IN': 2001:7fd::1#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:7fd::1#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'gra.wolfhugel.eu/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'gra.wolfhugel.eu/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'gra.wolfhugel.eu/A/IN': 2001:7fd::1#53
+network unreachable resolving 'ns1.eu.org/A/IN': 2001:7fd::1#53
+network unreachable resolving 'ns1.eu.org/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/A/IN': 2001:7fd::1#53
+network unreachable resolving 'gra.wolfhugel.eu/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'ns.bortzmeyer.eu.org/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:eea3::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns1.eu.org/A/IN': 2001:500:48::1#53
+network unreachable resolving 'ns1.eu.org/A/IN': 2001:500:b::1#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:503:d2d::30#53
+network unreachable resolving 'ns1.eriomem.net/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'ns1.eriomem.net/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:503:d2d::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:503:d2d::30#53
+network unreachable resolving 'ns1.eriomem.net/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'ns1.eriomem.net/A/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns1.istyx.eu.org/A/IN': 2001:bc8:30a3:200::1#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'auth1.dns.elm.net/A/IN': 2001:503:83eb::30#53
+network unreachable resolving 'auth1.dns.elm.net/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'auth1.dns.elm.net/A/IN': 2001:502:8cc::30#53
+network unreachable resolving 'auth1.dns.elm.net/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:503:83eb::30#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:502:8cc::30#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:502:8cc::30#53
+network unreachable resolving 'auth1.dns.elm.net/A/IN': 2a02:898:55:aabb::c2:53#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:470:1f14:565::2#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:4b98:c:13::14#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:470:1f14:565::2#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:19f0:5000:84c2::64#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:4b98:dc2:90:217:70:186:184#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:19f0:5000:84c2::64#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2a01:e0d:1:3:58bf:fa7a:0:1#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:4b98:dc2:90:217:70:186:184#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2400:cb00:2049:1::a29f:19d5#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2a01:e0d:1:3:58bf:fa7a:0:1#53
+network unreachable resolving 'ns3.keltia.net/A/IN': 2001:470:1f15:53d:1::4#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2400:cb00:2049:1::a29f:19d5#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:4b98:d:1::45#53
+network unreachable resolving 'ns3.keltia.net/AAAA/IN': 2001:470:1f15:53d:1::4#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:4b98:d:1::45#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:4b98:d:589::211#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:4b98:d:589::211#53
+network unreachable resolving 'dns4.gandi.net/A/IN': 2001:4b98:d:1::39#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:4b98:d:1::39#53
+network unreachable resolving 'dns4.gandi.net/AAAA/IN': 2001:4b98:c:13::14#53
+network unreachable resolving 'ns4.dns.nl/A/IN': 2001:678:20::24#53
+network unreachable resolving 'ns4.dns.nl/AAAA/IN': 2001:678:20::24#53
+network unreachable resolving 'ns4.dns.nl/A/IN': 2620:10a:80ac::200#53
+network unreachable resolving 'ns4.dns.nl/AAAA/IN': 2620:10a:80ac::200#53
+network unreachable resolving 'ns4.dns.nl/A/IN': 2001:67c:1010:10::53#53
+network unreachable resolving 'ns4.dns.nl/AAAA/IN': 2001:67c:1010:10::53#53
+network unreachable resolving 'ns4.dns.nl/A/IN': 2001:678:2c:0:194:0:28:53#53
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+zone localhost/IN/internal: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+all zones loaded
+running
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone localhost/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+all zones loaded
+running
+zone istyx.eu.org/IN/external: sending notifies (serial 1)
+client @0xfffe140a0840 141.145.207.92#39515: view external: received notify for zone 'istyx.eu.org'
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+zone localhost/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+all zones loaded
+running
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/internal: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+all zones loaded
+running
+zone istyx.eu.org/IN/external: sending notifies (serial 1)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+zone localhost/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+all zones loaded
+running
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone/localhost_resolver: loaded serial 0
+managed-keys-zone/internal: loaded serial 0
+managed-keys-zone/external: loaded serial 0
+zone 0.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/localhost_resolver: loaded serial 0
+zone 0.in-addr.arpa/IN/internal: loaded serial 0
+zone localhost/IN/localhost_resolver: loaded serial 0
+zone localhost.localdomain/IN/localhost_resolver: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN/internal: loaded serial 0
+zone localhost.localdomain/IN/internal: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN/internal: loaded serial 0
+istyx.eu.org.db:1: no TTL specified; using SOA MINTTL instead
+zone istyx.eu.org/IN/external: loaded serial 1
+zone localhost/IN/internal: loaded serial 0
+all zones loaded
+running
+zone istyx.eu.org/IN/external: sending notifies (serial 1)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
