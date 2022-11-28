@@ -1,0 +1,13 @@
+@	IN	SOA	ns1.istyx.eu.org. contact.istyx.eu.org. (
+	1
+	3H
+	15M
+	1W
+	1
+)
+
+@	IN	NS	ns1
+@	IN	NS	www
+
+ns1	IN	A	141.145.207.92
+www	IN	A	129.151.204.113
