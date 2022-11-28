@@ -41,9 +41,9 @@ WantedBy=multi-user.target
 Ajout d'un node exporter sur le client
 
 ```
-wget https://github.com/prometheus/node\_exporter/releases/download/v1.4.0/node\_exporter-1.4.0.linux-armv7.tar.gz
-tar -xzf node\_exporter-1.4.0.linux-armv7.tar.gz
-sudo cp node\_exporter-1.4.0.linux-armv7 /opt/exporter
+wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0/node_exporter-1.4.0.linux-armv7.tar.gz
+tar -xzf node_exporter-1.4.0.linux-armv7.tar.gz
+sudo cp node_exporter-1.4.0.linux-armv7 /opt/exporter
 ```
 
 Création du service
@@ -83,3 +83,19 @@ On modifie le fichier `/opt/prometheus/prometheus.yml` et on ajoute dans la sect
 On peut noter que le port par défaut est 9100
 
 ## Installation de Grafanda
+
+## Configuration du pare-feu
+
+Pour avoir un accès externe au service, il faut demander au pare-feu d'ouvrir les ports nécessaires
+
+```
+sudo firewall-cmd --add-port=9090/tcp --per # Pour se connecter à prometheus (web) (On ne l'ouvre pas dans notre cas)
+sudo firewall-cmd --add-port=3000/tcp # Pour se connecter à grafanda (web)
+sudo firewall-cmd --add-port=3000/tcp # Pour la communication entre le serveur prometheus et les nodes (a ouvrir sur les clients)
+```
+
+Après avoir modifié la configuation du pare-feu, on enregistre la configuration
+
+```
+sudo firewall-cmd --runtime-to-permanent
+```
