@@ -99,3 +99,43 @@ Après avoir modifié la configuation du pare-feu, on enregistre la configuratio
 ```
 sudo firewall-cmd --runtime-to-permanent
 ```
+
+## Mise en palce d'https pour Grafana
+
+Pour mettre en palce https sur Grafana: 
+
+- On génère un certificat et sa clé
+- On leur attribue les drots nécessaires pour Grafana
+- On indique les fichiers dans le fichier de configuration de Grafana
+
+> Génération du certificat
+
+```
+cd
+openssl genrsa -out grafana.key 2048
+openssl req -new -key grafana.key -out grafana.csr
+openssl x509 -req -days 365 -in grafana.csr -signkey grafana.key -out grafana.crt
+```
+
+> modification des droits
+
+```
+sudo chown grafana:grafana grafana.crt
+sudo chown grafana:grafana grafana.key
+37  sudo chmod 400 grafana.crt
+```
+
+> Copie de la clé et du certificat dans le dossier de grafana
+
+```
+sudo mv grafana.crt grafana.key /etc/grafana/
+```
+
+> modification du fichier de configuration: `/etc/grafana/grafana.ini`: ajouter les lignes suivantes:
+
+```
+[server]
+protocol = https
+cert_key = /etc/grafana/grafana.key
+cert_file = /etc/grafana/grafana.crt
+```
