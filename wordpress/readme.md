@@ -29,8 +29,8 @@ sudo apt -y install apache2
 Edit `/etc/apache2/sites-available/default-ssl.conf`
 
 In conf file modify these two following lines : 
-->  `SSLCertificateFile		/etc/ssl/certs/Certificate.crt`
-->  `SSLCertificateKeyFile	/etc/ssl/private/Private.pem`
+- `SSLCertificateFile		/etc/ssl/certs/Certificate.crt`
+- `SSLCertificateKeyFile	/etc/ssl/private/Private.pem`
 
 ## Enable SSL for Apache (HTTPS)
 
