@@ -1,3 +1,8 @@
+# Projet réseau m2 cyber
+
+Dans chaque dossier, l'explication de la configuration de chaque composant de notre infrastructure réseau.
+
+<!--
 # net-conf
 Configurations pour le projet de réseau
 
@@ -9,3 +14,4 @@ cd net-conf/dns
 ```
 
 Penser à bien installer bind avant de recopier les données du DNS afin de ne pas avoir de problèmes avec SELinux.
+-->

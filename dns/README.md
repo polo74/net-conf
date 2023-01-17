@@ -11,11 +11,10 @@ sudo dnf install bind -y
 # Copie de notre fichier de configuration
 
 git clone https://github.com/polo74/net-conf.git
-cd net-conf/dns/
-./import.sh
+cp net-conf/dns/conf /
 ```
 
-> Atention, bien penser à isntaller bind avant de copier les données. Dans l'autre sens il faut reconfigurer selinux sur certains dossiers (`var/named`)
+> Atention, bien penser à isntaller bind avant de copier les données. Dans le cas contraire, il faut reconfigurer selinux sur certains dossiers (`var/named`)
 
 # Démarrage du serveur
 
